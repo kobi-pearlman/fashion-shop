@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
-import CheckoutItem from "../../components/chekout-item/checkout-item";
+import CheckoutItem from "../../components/chekout-item/CheckoutItem";
 import StripeCheckoutButton from "../../components/stripe-button/StripeButton";
 import {
   selectCartItems,
